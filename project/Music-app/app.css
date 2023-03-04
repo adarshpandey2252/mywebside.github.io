@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+.main{
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    margin: 80px auto;
+    background-color: blueviolet;
+    color: white;
+    padding: 60px auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.img img{
+    text-align: center;
+width: 200px;
+height: 200px;
+border-radius: 100px;
+margin-top: 50px ;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+input{
+    width: 80%;
+}
+.control{
+    background-color: black;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+i{
+   
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+i:hover{
+    color: green;
+}
+
+.timer{
+    width: 80%;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .main-img {
+    animation: main-img infinite 12s linear;
+  }
+
+  @keyframes main-img {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+    
+}
+
+
+.name {
+    margin: 25px auto;
+    font-size: 22px;
+  }
+  
+ 
+
+  
+
+
+
+
+
+
+
+
+
+/* for small device */

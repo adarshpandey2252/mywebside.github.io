@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+
+}
+
+  
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 17px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 14px;
+  }
+  
+
+
+#mainimg{
+    border-radius: 20px;
+    justify-content: space-between;
+    
+}
+.newbtn{
+    background-color: blue;
+}
+
+
+.progress-outer{
+    background: #fff;
+    border-radius: 50px;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 0  10px rgba(209, 219, 231,0.7);
+}
+.progress{
+    height: 27px;
+    margin: 0;
+    overflow: visible;
+    border-radius: 50px;
+    background: #eaedf3;
+    box-shadow: inset 0 10px  10px rgba(244, 245, 250,0.9);
+}
+.progress .progress-bar{
+    border-radius: 50px;
+}
+.progress .progress-value{
+    position: relative;
+    left: -45px;
+    top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gold;
+    letter-spacing: 2px;
+}
+.progress-bar.active{
+    animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+  
+
+#skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skill img{
+    text-align: center;
+    width: 100%;
+    margin: 80px auto;
+    border-radius: 20px;
+}
+
+
+.card{
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+
+#html .bar {
+    width: 80%;
+    background-color: brown;
+}
+
+#footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+#footer .row{
+    text-align: center;
+}
+#footer strong li{
+    padding: 100px auto;
+}
+
+h1{
+    display: block;
+    color: greenyellow;
+}
+
+.card:hover{
+    width: 102%;
+    text-align: center;
+}
+
+
+
+
+.icon{
+    width: 50%;
+    margin: 10px auto;
+ 
+    
+}
+.icon i {
+cursor: pointer;
+font-size: 30px;
+padding: 10px 10px;
+color:  green;
+}
+
+
+@media screen and (max-width: 480px){
+    .icon{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .icon i{
+        padding: 2px 5px;
+    }
+  
+}

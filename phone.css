@@ -1,0 +1,19 @@
+
+
+
+@media screen and (max-width: 600px) {
+  *{
+    text-align: center;
+  }
+    
+    #skillimg{
+        display: none;
+    }
+    .skill{
+        margin-bottom: 20px;
+    }
+    .skill-graph{
+margin: 10px auto;
+    }
+  }
+  

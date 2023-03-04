@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 62%;
+        text-align: center;
+        font-size: 66%;
+    }
+    .logo{
+        width: 60px;
+        margin-top: 27px;
+    }
+    .main-btn{
+        padding: 6px 10px;
+        margin-top: 15px;
+    }
+    nav .language-btn{
+padding: 4px 8px;
+margin-top: 0;
+
+    }
+    .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 140px;
+    }
+    .header-content p{
+        white-space: normal;
+    }
+    .email-signup{
+        text-align: center;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+    }
+    
+    .email-signup input{
+        
+        font-size: 15px;
+    
+        padding: 5px 1px;
+    
+
+    }
+    .email-signup button{
+     display: flex;
+     text-align: center;
+        font-size: 13px;
+    
+        padding: 7px 4px;
+        text-align: center;
+        width: 100px;
+
+    }
+    .email-signup button i{
+      display: none;
+    }
+   
+
+    .text-col, .col-img{
+flex-basis: 100%;
+    }
+    .feature h1{
+font-size: 27px;
+    }
+    .feature p{
+        font-size: 16px;
+    }
+    .row:nth-child(2),    .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .row:nth-child(4){
+        flex-direction:  column-reverse;
+    }
+  
+
+  .faq h1{
+    font-size: 20px;
+    
+  }
+ 
+  .accordion li  label{
+    font-size: 16px;
+    
+ }
+  .accordion p{
+    font-size: 14px;
+  }
+    #smfoam{
+        width: 85vw;
+        margin: 20px auto;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer h3{
+      display: none;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row .col{
+        padding: 0;
+        margin: 20px auto;
+      text-align: center;
+    }
+    .row .col a{
+        text-align: center;
+    }
+  
+}
